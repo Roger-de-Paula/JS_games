@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:rgb(199, 177, 53);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    font-family: 'Source Code Pro', monospace;
+}
+
+#tools {
+    position: absolute;
+    bottom: 2rem;
+}
+
+
+score {
+    display: flex;
+    flex-direction: column;
+    pointer-events: none;
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+}
+
+#robot {
+    position: relative;
+    top: 2rem;
+    right: 32rem;
+    width: 14rem;
+    height: 14rem;
+    border-radius: 8rem;
+}
+
+#robot:hover {
+    transform: scale( 1.1);
+}
+
+.options {
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin:  0.5rem;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 5rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.options:hover {
+    transform: scale(1.1);
+}
+
+input {
+    background: transparent;
+    border: none;
+}
+
+
+
+
+
+
